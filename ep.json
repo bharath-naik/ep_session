@@ -1,0 +1,18 @@
+{
+  "parts": [
+    {
+      "name": "session",
+      "client_hooks": {
+        "documentReady": "ep_session_test/static/js/main:documentReady",
+        "handleClientMessage_CUSTOM": "ep_session_test/static/js/main:handleClientMessage_CUSTOM"
+      },
+      "hooks": {
+        "eejsBlock_editbarMenuRight": "ep_session_test/index",
+        "handleMessage": "ep_session_test/index:handleMessage",
+        "authorize": "ep_session_test/index:authorize",
+        "authenticate":"ep_session_test/index:authenticate"
+
+      }
+    }
+  ]
+}

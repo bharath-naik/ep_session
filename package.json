@@ -1,0 +1,18 @@
+{
+  "name": "ep_session",
+  "version": "0.1.20",
+  "description": "test the plugin with this for button ... triggering .. b's current work",
+  "main": "index.js",
+  "scripts": {
+    "test": "index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "null"
+  },
+  "keywords": [
+    "session"
+  ],
+  "author": "bharath",
+  "license": "ISC"
+}
